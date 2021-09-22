@@ -1,0 +1,254 @@
+/* Google Fonts start */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+/* Google Fonts end */
+
+/* General styles start */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.register-btn {
+    padding: 12px 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #DE2E54;
+    letter-spacing: 2px;
+    font-weight: 700;
+    border: 2px solid #DE2E54;
+    border-radius: 8px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* General styles end */
+
+/* header section end */
+
+.main-header {
+    height: 100px;
+    padding: 24px;
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-header .main-brand {
+    display: flex;
+    align-items: center;
+}
+
+.main-header .main-brand a {
+    text-decoration: none;
+    color: #DE2E54;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 16px;
+}
+
+.main-header .main-navbar .nav-link {
+    margin-right: 32px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #222;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.main-header .main-navbar .nav-link:hover {
+    color: #DE2E54;
+}
+
+.main-header .main-navbar .active-link {
+    color: #DE2E54;
+}
+
+/* header section end */
+
+/* hero section start */
+.hero-section {
+    background-color: #0EB4C1;
+    color: #fff;
+}
+
+.hero-section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-section .hero-description h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 36px;
+    width: 500px;
+    font-weight: 700;
+    line-height: 43px;
+    margin-bottom: 16px;
+}
+
+.hero-section .hero-description p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    width: 440px;
+    margin-bottom: 36px;
+}
+
+.hero-section .hero-description .hero-register-btn {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #fff;
+    padding: 12px 24px;
+    background: rgba(222, 46, 84, 0.8);
+    border-radius: 8px;
+}
+
+.hero-section .hero-image {
+    margin-top: 29px;
+}
+
+/* hero section end */
+
+/* Services section start */
+.services {
+    padding: 120px 0;
+    background: #fff;
+}
+
+.services .container {
+    width: 864px;
+    margin: 0 auto;
+}
+
+.services .services-title {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    margin-bottom: 56px;
+}
+
+
+.services .services-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.services .services-card {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.services .services-card .services-card-image img {
+    width: 200px;
+    height: 200px;
+    margin-right: 64px;
+}
+
+.services .services-card .services-card-about h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+
+.services .services-card .services-card-about p {
+    width: 600px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    color: #444;
+}
+
+/* services section end */
+
+/* cta section start */
+
+.cta-section {
+    background: #0EB4C1;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.cta-section .container {
+    width: 448px;
+    margin: 0 auto;
+}
+
+.cta-section .cta-title {
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    padding-top: 64px;
+    margin-bottom: 40px;
+}
+
+.cta-section .cta-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 64px;
+}
+
+.cta-section .cta-btns .btn {
+    padding: 12px 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.cta-section .cta-btns .btn-danger {
+    background: #DE2E54;
+}
+
+.cta-section .cta-btns .btn-outline {
+    border: 2px solid #fff;
+}
+
+/* cta section end */
+
+/* footer section start */
+.footer {
+    background: #222;
+}
+
+.footer .main-navbar .nav-link {
+    color: #fff;
+}
+
+.footer .main-navbar .active-link {
+    color: #DE2E54;
+}
