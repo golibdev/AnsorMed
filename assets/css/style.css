@@ -37,6 +37,12 @@ body {
     border: 2px solid #DE2E54;
     border-radius: 8px;
     font-family: 'Open Sans', sans-serif;
+    transition: 0.5s ease;
+}
+
+.register-btn:hover {
+    background-color: #DE2E54;
+    color: #fff;
 }
 /* General styles end */
 
